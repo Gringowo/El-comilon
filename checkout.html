@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <title>El Comilón - Comida para servir y llevar</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="stylesheet" href="css/custom.css">
+
+
+
+</head>
+
+<body>
+    
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="custom-select-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
+							<option>$ CLP</option>
+							<option>$ USD</option>
+							<option>€ EUR</option>
+						</select>
+                    </div>
+                    <div class="right-phone-box">
+                        <p>Llámenos :- <a href="#"> (+56 9) 856 783 21</a></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user s_color"></i> Mi cuenta</a></li>
+                            <li><a href="#"><i class="fas fa-location-arrow"></i> Donde estamos</a></li>
+                            <li><a href="#"><i class="fas fa-headset"></i> Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+							<option>Registrese aquí</option>
+							<option>Iniciar sesión</option>
+						</select>
+					</div>
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% de descuento con código: offT80
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% descuento en recomendación del Comilón
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Descuento 10% platos vegetarianos
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Vea nuestras promociones
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 10% descuento desayunos
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+  
+    <header class="main-header">
+      
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+              
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"  width="200"  alt=""></a>
+                </div>
+               
+
+                
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre nosotros</a></li>
+                        <li class="dropdown active">
+                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">DELIVERY</a>
+                            <ul class="dropdown-menu">
+								<li><a href="shop.html">Tienda</a></li>
+								<li><a href="shop-detail.html">Detalle de la compra</a></li>
+                                <li><a href="cart.html">Carro</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="my-account.html">Mi cuenta</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Nuestros platos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contacto</a></li>
+                    </ul>
+                </div>
+             
+
+            
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu"><a href="#">
+						<i class="fa fa-shopping-bag"></i>
+                            <span class="badge">3</span>
+							<p>Mi carro</p>
+					</a></li>
+                    </ul>
+                </div>
+              
+            </div>
+           
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <li class="cart-box">
+                    <ul class="cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>1x - <span class="price">$80.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Omnes ocurreret</a></h6>
+                            <p>1x - <span class="price">$60.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Agam facilisis</a></h6>
+                            <p>1x - <span class="price">$40.00</span></p>
+                        </li>
+                        <li class="total">
+                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
+                            <span class="float-right"><strong>Total</strong>: $180.00</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+         
+        </nav>
+      
+    </header>
+   
+
+  
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    
+
+   
+    <div class="all-title-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Checkout</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Tienda</a></li>
+                        <li class="breadcrumb-item active">Checkout</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+    <div class="cart-box-main">
+        <div class="container">
+            <div class="row new-account-login">
+                <div class="col-sm-6 col-lg-6 mb-3">
+                    <div class="title-left">
+                        <h3>Iniciar Sesión</h3>
+                    </div>
+                    <h5><a data-toggle="collapse" href="#formLogin" role="button" aria-expanded="false">Haga click aquí</a></h5>
+                    <form class="mt-3 collapse review-form-box" id="formLogin">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="InputEmail" class="mb-0">Dirección Email</label>
+                                <input type="email" class="form-control" id="InputEmail" placeholder="Escriba su correo"> </div>
+                            <div class="form-group col-md-6">
+                                <label for="InputPassword" class="mb-0">Contraseña</label>
+                                <input type="password" class="form-control" id="InputPassword" placeholder="Contraseña"> </div>
+                        </div>
+                        <button type="submit" class="btn hvr-hover">Iniciar sesión</button>
+                    </form>
+                </div>
+                <div class="col-sm-6 col-lg-6 mb-3">
+                    <div class="title-left">
+                        <h3>Crear nueva cuenta</h3>
+                    </div>
+                    <h5><a data-toggle="collapse" href="#formRegister" role="button" aria-expanded="false">Regístrese aquí</a></h5>
+                    <form class="mt-3 collapse review-form-box" id="formRegister">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="InputName" class="mb-0">Primer Nombre</label>
+                                <input type="text" class="form-control" id="InputName" placeholder="Primer Nombre"> </div>
+                            <div class="form-group col-md-6">
+                                <label for="InputLastname" class="mb-0">Apellido</label>
+                                <input type="text" class="form-control" id="InputLastname" placeholder="Apellido"> </div>
+                            <div class="form-group col-md-6">
+                                <label for="InputEmail1" class="mb-0">Dirección Emails</label>
+                                <input type="email" class="form-control" id="InputEmail1" placeholder="Escriba su correo"> </div>
+                            <div class="form-group col-md-6">
+                                <label for="InputPassword1" class="mb-0">Contraseña</label>
+                                <input type="password" class="form-control" id="InputPassword1" placeholder="Contraseña"> </div>
+                        </div>
+                        <button type="submit" class="btn hvr-hover">Registro</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-6 mb-3">
+                    <div class="checkout-address">
+                        <div class="title-left">
+                            <h3>Dirección de envío</h3>
+                        </div>
+                        <form class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName">Primer nombre *</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                    <div class="invalid-feedback"> Valid first name is required. </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName">Apellido *</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                    <div class="invalid-feedback"> Valid last name is required. </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="username">Nombre de usuario *</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="username" placeholder="" required>
+                                    <div class="invalid-feedback" style="width: 100%;"> Se necesita su nombre de usuario. </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Correo electroónico*</label>
+                                <input type="email" class="form-control" id="email" placeholder="">
+                                <div class="invalid-feedback"> Se requiere un correo electrónico válido. </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="address">Dirección *</label>
+                                <input type="text" class="form-control" id="address" placeholder="" required>
+                                <div class="invalid-feedback"> Introduzca una dirección por favor. </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="address2">Dirección 2 (opcional) *</label>
+                                <input type="text" class="form-control" id="address2" placeholder=""> </div>
+                            <div class="row">
+                                <div class="col-md-5 mb-3">
+                                    <label for="country">Country *</label>
+                                    <select class="wide w-100" id="country">
+									<option value="Choose..." data-display="Select">Choose...</option>
+									<option value="United States">United States</option>
+								</select>
+                                    <div class="invalid-feedback"> Please select a valid country. </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label for="state">State *</label>
+                                    <select class="wide w-100" id="state">
+									<option data-display="Select">Choose...</option>
+									<option>California</option>
+								</select>
+                                    <div class="invalid-feedback"> Please provide a valid state. </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="zip">Zip *</label>
+                                    <input type="text" class="form-control" id="zip" placeholder="" required>
+                                    <div class="invalid-feedback"> Zip code required. </div>
+                                </div>
+                            </div>
+                            <hr class="mb-4">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="same-address">
+                                <label class="custom-control-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación.</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="save-info">
+                                <label class="custom-control-label" for="save-info">Guardar esta información</label>
+                            </div>
+                            <hr class="mb-4">
+                            <div class="title"> <span>Pago</span> </div>
+                            <div class="d-block my-3">
+                                <div class="custom-control custom-radio">
+                                    <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                                    <label class="custom-control-label" for="credit">Tarjeta de crédito</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                    <label class="custom-control-label" for="debit">Tarjeta de débito</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                    <label class="custom-control-label" for="paypal">Paypal</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="cc-name">Nombre titular</label>
+                                    <input type="text" class="form-control" id="cc-name" placeholder="" required> <small class="text-muted">Nombre completo que aparece en la tarjeta</small>
+                                    <div class="invalid-feedback"> Se necesita el nombre completo </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="cc-number">Número tarjeta de crédito</label>
+                                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                                    <div class="invalid-feedback"> se requiere el número de la tarjeta de crédito </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 mb-3">
+                                    <label for="cc-expiration">Expiración</label>
+                                    <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                                    <div class="invalid-feedback"> Se requiere fecha de expitqación </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="cc-expiration">Número Verificador</label>
+                                    <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                                    <div class="invalid-feedback"> Se requiere el N° verificador </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="payment-icon">
+                                        <ul>
+                                            <li><img class="img-fluid" src="images/payment-icon/1.png" alt=""></li>
+                                            <li><img class="img-fluid" src="images/payment-icon/2.png" alt=""></li>
+                                            <li><img class="img-fluid" src="images/payment-icon/3.png" alt=""></li>
+                                            <li><img class="img-fluid" src="images/payment-icon/5.png" alt=""></li>
+                                            <li><img class="img-fluid" src="images/payment-icon/7.png" alt=""></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="mb-1"> </form>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6 mb-3">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="shipping-method-box">
+                                <div class="title-left">
+                                    <h3>Tipo de servicio</h3>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="custom-control custom-radio">
+                                        <input id="shippingOption1" name="shipping-option" class="custom-control-input" checked="checked" type="radio">
+                                        <label class="custom-control-label" for="shippingOption1">Retiro en local</label> <span class="float-right font-weight-bold">Sin costo adicional</span> </div>
+                                    <div class="ml-4 mb-2 small">(3-7 business days)</div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="shippingOption2" name="shipping-option" class="custom-control-input" type="radio">
+                                        <label class="custom-control-label" for="shippingOption2">Envío a domicilio</label> <span class="float-right font-weight-bold">2.000 (costo envío)</span> </div>
+                                    <div class="ml-4 mb-2 small">(2-4 business days)</div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="shippingOption3" name="shipping-option" class="custom-control-input" type="radio">
+                                        <label class="custom-control-label" for="shippingOption3">Reserva en local</label> <span class="float-right font-weight-bold">$2.000</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <div class="odr-box">
+                                <div class="title-left">
+                                    <h3>Carro de compras</h3>
+                                </div>
+                                <div class="rounded p-2 bg-light">
+                                    <div class="media mb-2 border-bottom">
+                                        <div class="media-body"> <a href="detail.html"> Plato Tradicional 1</a>
+                                            <div class="small text-muted">Precio: $3.500 <span class="mx-2">|</span> Qty: 1 <span class="mx-2">|</span> Subtotal: $3.500</div>
+                                        </div>
+                                    </div>
+                                    <div class="media mb-2 border-bottom">
+                                        <div class="media-body"> <a href="detail.html"> Añadido ensalada 2</a>
+                                            <div class="small text-muted">Precio: $1.500 <span class="mx-2">|</span> Qty: 1 <span class="mx-2">|</span> Subtotal: $1.500</div>
+                                        </div>
+                                    </div>
+                                    <div class="media mb-2">
+                                        <div class="media-body"> <a href="detail.html"> bebida 500 ml.</a>
+                                            <div class="small text-muted">Precio: $800 <span class="mx-2">|</span> Qty: 1 <span class="mx-2">|</span> Subtotal: $800</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <div class="order-box">
+                                <div class="title-left">
+                                    <h3>Su orden</h3>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="font-weight-bold">Producto</div>
+                                    <div class="ml-auto font-weight-bold">Total</div>
+                                </div>
+                                <hr class="my-1">
+                                <div class="d-flex">
+                                    <h4>Sub Total</h4>
+                                    <div class="ml-auto font-weight-bold"> $ 5.800 </div>
+                                </div>
+                                <div class="d-flex">
+                                    <h4>Descuento</h4>
+                                    <div class="ml-auto font-weight-bold"> $ 0 </div>
+                                </div>
+                                <hr class="my-1">
+                                <div class="d-flex">
+                                    <h4>Cupón de Descuento</h4>
+                                    <div class="ml-auto font-weight-bold"> $ 1.500 </div>
+                                </div>
+                                <div class="d-flex">
+                                    <h4>Impuesto</h4>
+                                    <div class="ml-auto font-weight-bold"> $ 500 </div>
+                                </div>
+                                <div class="d-flex">
+                                    <h4>Costo envío</h4>
+                                    <div class="ml-auto font-weight-bold"> $2.000 </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex gr-total">
+                                    <h5>Total a pagar</h5>
+                                    <div class="ml-auto h5"> $ 6.800</div>
+                                </div>
+                                <hr> </div>
+                        </div>
+                        <div class="col-12 d-flex shopping-box"> <a href="checkout.html" class="ml-auto btn hvr-hover">Hacer pedido</a> </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  
+
+   
+    <div class="instagram-box">
+        <div class="main-instagram owl-carousel owl-theme">
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-01.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-02.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-03.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-04.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-06.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-07.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-08.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-09.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+ 
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Horario de atención</h3>
+							<ul class="list-time">
+								<li>lunes a Viernes: 08.00am to 17.00pm</li> <li>Sábados: 10.00am to 14.00pm</li> <li>Domingos: <span>Cerrado</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Newsletter</h3>
+							<form class="newsletter-box">
+								<div class="form-group">
+									<input class="" type="email" name="Email" placeholder="Escriba su Email*" />
+									<i class="fa fa-envelope"></i>
+								</div>
+								<button class="btn hvr-hover" type="submit">Enviar</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>Redes sociales</h3>
+							<p>Para mas informacíon síganos en nuestras redes.</p>
+							<ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+				<hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>Sobre El Comilón</h4>
+                            <p>Somos gastronomía de alta calidad, Nuestra propuesta gastronómica abarca tablas, sanguches, ceviches, carnes y sabores que no le dejarán indiferente.</p> 
+							<p>Nuestro objetivo llegar a todos los gustos con una amplia y variada carta. Disponemos de un amplio, acogedor y atractivo local para celebrar todo tipo de eventos. </p> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link">
+                            <h4>Información</h4>
+                            <ul>
+                                <li><a href="#">Sobre nosotros</a></li>
+                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="#">Mapa del sitio</a></li>
+                                <li><a href="#">Terminos &amp; Condiciones</a></li>
+                                <li><a href="#">Politica de Privacidad</a></li>
+                                <li><a href="#">Información sobre envíos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contacto</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Dirección: Calle Victoria 2788 <br>Valparaíso <br></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Teléfono: <a href="tel:+56 9 85678321">(+56 9) 856 783 21</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">ElComilon@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+
+
+
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
